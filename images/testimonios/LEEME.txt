@@ -1,0 +1,20 @@
+CARPETA DE IMÁGENES — CARRUSEL DE TESTIMONIOS
+==============================================
+
+Coloca aquí las fotos de tus trabajos realizados. El carrusel las cargará automáticamente.
+
+Nombres de archivo requeridos:
+  - trabajo-1.jpg
+  - trabajo-2.jpg
+  - trabajo-3.jpg
+  - trabajo-4.jpg
+  - trabajo-5.jpg
+
+Formatos aceptados: .jpg, .jpeg, .png, .webp
+
+Recomendaciones:
+  - Tamaño ideal: 1200 x 800 px (proporción 3:2)
+  - Peso máximo recomendado: 500 KB por imagen
+  - Usa fotos de buena calidad de instalaciones, mantenimientos o reparaciones
+
+Puedes agregar más imágenes editando index.html y script.js.

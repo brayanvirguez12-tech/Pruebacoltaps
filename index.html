@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coltaps - Instalación, mantenimiento y reparación de aires acondicionados. Servicio profesional con garantía.">
+  <title>Coltaps | Aires Acondicionados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <svg class="logo__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="10" fill="currentColor"/>
+          <path d="M12 22C12 17.5817 15.5817 14 20 14C24.4183 14 28 17.5817 28 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M20 14V10M14 18L11 15M26 18L29 15M16 26H24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="20" cy="24" r="3" fill="white"/>
+        </svg>
+        <span class="logo__text">Coltaps</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="#proceso" class="nav__link">Proceso</a></li>
+          <li><a href="#testimonios" class="nav__link">Testimonios</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contacto" class="btn btn--primary header__cta">Cotizar ahora</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <div class="hero__gradient"></div>
+      <div class="hero__pattern"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="hero__badge">Servicio profesional certificado</span>
+        <h1 class="hero__title">
+          Climatiza tu espacio con
+          <span class="hero__highlight">Coltaps</span>
+        </h1>
+        <p class="hero__subtitle">
+          Instalación, mantenimiento y reparación de aires acondicionados.
+          Más de 10 años brindando confort y frescura a hogares y empresas.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary btn--lg">Solicitar cotización</a>
+          <a href="#servicios" class="btn btn--outline btn--lg">Ver servicios</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__number">500+</span>
+            <span class="stat__label">Clientes satisfechos</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">10+</span>
+            <span class="stat__label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">24/7</span>
+            <span class="stat__label">Soporte de emergencia</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card">
+          <div class="hero__card-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="16" width="48" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 28H48M16 36H48M16 44H36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="48" cy="44" r="4" fill="currentColor"/>
+              <path d="M32 16V8M24 12L20 8M40 12L44 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Clima perfecto</h3>
+          <p>Temperatura ideal todo el año</p>
+          <div class="hero__temp">
+            <span class="hero__temp-value">22°C</span>
+            <span class="hero__temp-label">Temperatura óptima</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestros servicios</span>
+        <h2 class="section-title">Soluciones completas en climatización</h2>
+        <p class="section-subtitle">
+          Ofrecemos servicios integrales para mantener tu ambiente siempre fresco y confortable.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 8V16M24 32V40M8 24H16M32 24H40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M20 24L23 27L28 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Instalación</h3>
+          <p class="service-card__desc">
+            Instalación profesional de equipos split, centrales y multisplit. Asesoría para elegir el equipo ideal según tu espacio.
+          </p>
+          <ul class="service-card__features">
+            <li>Equipos de última generación</li>
+            <li>Instalación en 24-48 horas</li>
+            <li>Garantía de instalación</li>
+          </ul>
+        </article>
+
+        <article class="service-card service-card--featured">
+          <div class="service-card__badge">Más popular</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6L28 18H40L30 26L34 38L24 30L14 38L18 26L8 18H20L24 6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Mantenimiento</h3>
+          <p class="service-card__desc">
+            Planes de mantenimiento preventivo para prolongar la vida útil de tu equipo y mantener su eficiencia energética.
+          </p>
+          <ul class="service-card__features">
+            <li>Limpieza profunda de filtros</li>
+            <li>Revisión de gas refrigerante</li>
+            <li>Planes mensuales y anuales</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="currentColor" stroke-width="2.5"/><path d="M24 16V24L30 30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Reparación</h3>
+          <p class="service-card__desc">
+            Diagnóstico y reparación rápida de fallas. Servicio de emergencia disponible las 24 horas para no dejarte sin aire.
+          </p>
+          <ul class="service-card__features">
+            <li>Diagnóstico sin costo</li>
+            <li>Repuestos originales</li>
+            <li>Respuesta en menos de 2 horas</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="nosotros">
+    <div class="container about__inner">
+      <div class="about__visual">
+        <div class="about__image">
+          <div class="about__image-placeholder">
+            <svg viewBox="0 0 120 120" fill="none">
+              <rect x="20" y="30" width="80" height="50" rx="6" stroke="currentColor" stroke-width="3"/>
+              <path d="M35 50H85M35 60H85M35 70H65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="75" cy="70" r="6" fill="currentColor"/>
+              <path d="M60 30V15M45 22L38 15M75 22L82 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="about__experience">
+          <span class="about__experience-number">10+</span>
+          <span class="about__experience-text">Años de<br>experiencia</span>
+        </div>
+      </div>
+      <div class="about__content">
+        <span class="section-tag">Sobre nosotros</span>
+        <h2 class="section-title">Expertos en climatización que puedes confiar</h2>
+        <p class="about__text">
+          En <strong>Coltaps</strong> nos especializamos en brindar soluciones de climatización de alta calidad.
+          Nuestro equipo de técnicos certificados trabaja con las mejores marcas del mercado para garantizar
+          resultados duraderos y eficientes.
+        </p>
+        <p class="about__text">
+          Desde hogares hasta oficinas y comercios, adaptamos cada proyecto a las necesidades específicas
+          de nuestros clientes, siempre con precios justos y servicio excepcional.
+        </p>
+        <div class="about__features">
+          <div class="about__feature">
+            <div class="about__feature-icon">✓</div>
+            <div>
+              <h4>Técnicos certificados</h4>
+              <p>Personal capacitado y con experiencia comprobada</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">✓</div>
+            <div>
+              <h4>Garantía en todos los trabajos</h4>
+              <p>Respaldamos cada instalación y reparación</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">✓</div>
+            <div>
+              <h4>Precios transparentes</h4>
+              <p>Cotizaciones claras sin costos ocultos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <span class="section-tag section-tag--light">Cómo trabajamos</span>
+        <h2 class="section-title section-title--light">Proceso simple en 4 pasos</h2>
+        <p class="section-subtitle section-subtitle--light">
+          Desde la consulta hasta la instalación, te acompañamos en cada etapa.
+        </p>
+      </div>
+
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__step-number">01</div>
+          <h3>Contacto</h3>
+          <p>Contáctanos por teléfono, WhatsApp o formulario web. Respondemos en minutos.</p>
+        </div>
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__step-number">02</div>
+          <h3>Evaluación</h3>
+          <p>Visitamos tu espacio para evaluar necesidades y recomendar la mejor solución.</p>
+        </div>
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__step-number">03</div>
+          <h3>Cotización</h3>
+          <p>Recibes una cotización detallada y transparente sin compromiso.</p>
+        </div>
+        <div class="process__connector"></div>
+        <div class="process__step">
+          <div class="process__step-number">04</div>
+          <h3>Instalación</h3>
+          <p>Realizamos el trabajo con profesionalismo y dejamos todo impecable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonios</span>
+        <h2 class="section-title">Resultados que hablan por nosotros</h2>
+        <p class="section-subtitle">
+          Conoce algunos de nuestros trabajos y la experiencia de quienes ya confían en Coltaps.
+        </p>
+      </div>
+
+      <div class="testimonials__layout">
+        <!-- Carrusel de imágenes -->
+        <div class="carousel" id="testimonialCarousel">
+          <div class="carousel__viewport">
+            <div class="carousel__track" id="carouselTrack">
+              <div class="carousel__slide">
+                <img src="images/testimonios/trabajo-1.jpg" alt="Instalación de aire acondicionado residencial" loading="lazy">
+                <div class="carousel__caption">
+                  <span>Instalación residencial</span>
+                </div>
+              </div>
+              <div class="carousel__slide">
+                <img src="images/testimonios/trabajo-2.jpg" alt="Mantenimiento de equipo de climatización" loading="lazy">
+                <div class="carousel__caption">
+                  <span>Mantenimiento preventivo</span>
+                </div>
+              </div>
+              <div class="carousel__slide">
+                <img src="images/testimonios/trabajo-3.jpg" alt="Climatización de oficina comercial" loading="lazy">
+                <div class="carousel__caption">
+                  <span>Climatización comercial</span>
+                </div>
+              </div>
+              <div class="carousel__slide">
+                <img src="images/testimonios/trabajo-4.jpg" alt="Reparación de aire acondicionado" loading="lazy">
+                <div class="carousel__caption">
+                  <span>Reparación especializada</span>
+                </div>
+              </div>
+              <div class="carousel__slide">
+                <img src="images/testimonios/trabajo-5.jpg" alt="Proyecto de climatización Coltaps" loading="lazy">
+                <div class="carousel__caption">
+                  <span>Proyecto completado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel__btn carousel__btn--prev" id="carouselPrev" aria-label="Imagen anterior">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="carousel__btn carousel__btn--next" id="carouselNext" aria-label="Siguiente imagen">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="carousel__dots" id="carouselDots"></div>
+        </div>
+
+        <!-- Reseñas -->
+        <div class="testimonials__reviews">
+          <div class="testimonials__reviews-track" id="reviewsTrack">
+            <article class="testimonial-card active">
+              <div class="testimonial-card__quote">"</div>
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__text">
+                Excelente servicio. Instalaron mi aire acondicionado en un día y el técnico fue muy profesional.
+                El precio fue justo y el equipo funciona perfectamente.
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">MR</div>
+                <div>
+                  <strong>María Rodríguez</strong>
+                  <span>Cliente residencial</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__quote">"</div>
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__text">
+                Contratamos a Coltaps para climatizar nuestra oficina. El plan de mantenimiento mensual
+                nos ha ahorrado muchos problemas. Muy recomendados.
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">CL</div>
+                <div>
+                  <strong>Carlos López</strong>
+                  <span>Director comercial</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__quote">"</div>
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__text">
+                Tuve una emergencia un domingo y vinieron en menos de 2 horas. Repararon mi equipo
+                rápidamente. Servicio de emergencia de verdad.
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">AP</div>
+                <div>
+                  <strong>Ana Pérez</strong>
+                  <span>Cliente residencial</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="testimonials__reviews-nav">
+            <button class="reviews-nav__btn" id="reviewPrev" aria-label="Reseña anterior">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="reviews-nav__dots" id="reviewDots"></div>
+            <button class="reviews-nav__btn" id="reviewNext" aria-label="Siguiente reseña">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div class="cta-banner__content">
+        <h2>¿Listo para disfrutar del clima perfecto?</h2>
+        <p>Obtén una cotización gratuita hoy mismo. Sin compromiso.</p>
+      </div>
+      <a href="#contacto" class="btn btn--white btn--lg">Cotización gratuita</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contacto">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <span class="section-tag">Contacto</span>
+        <h2 class="section-title">Hablemos de tu proyecto</h2>
+        <p class="contact__text">
+          Estamos listos para ayudarte. Contáctanos y recibe asesoría personalizada sin costo.
+        </p>
+
+        <div class="contact__details">
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92V19.92C22 20.48 21.56 20.93 21 20.97C20.73 20.99 20.46 21 20.18 21C10.6 21 3 13.4 3 3.82C3 3.54 3.01 3.27 3.03 3C3.07 2.44 3.52 2 4.08 2H7.08C7.64 2 8.11 2.44 8.15 3C8.19 3.73 8.33 4.45 8.56 5.14C8.69 5.52 8.59 5.95 8.31 6.23L6.91 7.63C8.21 10.28 10.72 12.79 13.37 14.09L14.77 12.69C15.05 12.41 15.48 12.31 15.86 12.44C16.55 12.67 17.27 12.81 18 12.85C18.56 12.89 19 13.36 19 13.92V16.92H22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <strong>Teléfono</strong>
+              <a href="tel:+573168849932">316 884 9932</a>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:info@coltaps.com">info@coltaps.com</a>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61 3.95 5.39 5.59 3.75C7.23 2.11 9.45 1.16 12 1.16C14.55 1.16 16.77 2.11 18.41 3.75C20.05 5.39 21 7.61 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <strong>Ubicación</strong>
+              <span>Bogotá, Colombia</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <strong>Horario</strong>
+              <span>Lun - Sáb: 7:00 AM - 7:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact__form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" placeholder="+57 300 000 0000" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Servicio de interés</label>
+          <select id="service" name="service" required>
+            <option value="">Selecciona un servicio</option>
+            <option value="instalacion">Instalación</option>
+            <option value="mantenimiento">Mantenimiento</option>
+            <option value="reparacion">Reparación</option>
+            <option value="cotizacion">Cotización general</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg btn--full">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo logo--footer">
+          <svg class="logo__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="currentColor"/>
+            <path d="M12 22C12 17.5817 15.5817 14 20 14C24.4183 14 28 17.5817 28 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M20 14V10M14 18L11 15M26 18L29 15M16 26H24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="20" cy="24" r="3" fill="white"/>
+          </svg>
+          <span class="logo__text">Coltaps</span>
+        </a>
+        <p class="footer__desc">
+          Expertos en climatización. Tu confort es nuestra prioridad.
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Instalación</a></li>
+          <li><a href="#servicios">Mantenimiento</a></li>
+          <li><a href="#servicios">Reparación</a></li>
+          <li><a href="#contacto">Cotización</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__social">
+        <h4>Síguenos</h4>
+        <div class="footer__social-links">
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://wa.me/573168849932" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382C17.008 14.149 15.198 13.216 14.765 13.05C14.332 12.884 14.016 12.801 13.7 13.267C13.384 13.733 12.502 14.798 12.22 15.131C11.938 15.464 11.656 15.506 11.192 15.273C10.728 15.04 9.324 14.548 7.692 13.089C6.432 11.979 5.604 10.618 5.322 10.152C5.04 9.686 5.292 9.428 5.534 9.186C5.752 8.968 6.018 8.62 6.26 8.344C6.502 8.068 6.572 7.876 6.726 7.602C6.88 7.328 6.796 7.096 6.68 6.864C6.564 6.632 5.8 4.812 5.534 4.18C5.276 3.564 5.012 3.648 4.724 3.634C4.448 3.622 4.13 3.62 3.812 3.62C3.494 3.62 2.988 3.744 2.568 4.212C2.148 4.68 1 5.744 1 7.894C1 10.044 2.568 12.11 2.776 12.374C2.984 12.638 5.604 16.896 9.724 18.746C10.692 19.166 11.438 19.402 12.016 19.568C12.884 19.822 13.676 19.786 14.298 19.696C14.988 19.596 16.432 18.828 16.748 17.994C17.064 17.16 17.064 16.448 16.972 16.282C16.88 16.116 16.712 16.05 16.248 15.818L17.472 14.382ZM12 21C10.686 21 9.392 20.741 8.193 20.243L7.824 20.076L4.104 21.084L5.136 17.484L4.944 17.1C4.396 15.876 4.108 14.544 4.108 13.186C4.108 7.672 8.588 3.186 14.108 3.186C16.808 3.186 19.348 4.236 21.228 6.12C23.108 8.004 24.152 10.548 24.148 13.248C24.148 18.762 19.668 23.248 14.148 23.248L12 21Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Coltaps. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/573168849932?text=Hola%2C%20me%20interesa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20aires%20acondicionados." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp al 316 884 9932">
+    <span class="whatsapp-float__pulse"></span>
+    <span class="whatsapp-float__pulse whatsapp-float__pulse--delay"></span>
+    <span class="whatsapp-float__tooltip">316 884 9932</span>
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382C17.008 14.149 15.198 13.216 14.765 13.05C14.332 12.884 14.016 12.801 13.7 13.267C13.384 13.733 12.502 14.798 12.22 15.131C11.938 15.464 11.656 15.506 11.192 15.273C10.728 15.04 9.324 14.548 7.692 13.089C6.432 11.979 5.604 10.618 5.322 10.152C5.04 9.686 5.292 9.428 5.534 9.186C5.752 8.968 6.018 8.62 6.26 8.344C6.502 8.068 6.572 7.876 6.726 7.602C6.88 7.328 6.796 7.096 6.68 6.864C6.564 6.632 5.8 4.812 5.534 4.18C5.276 3.564 5.012 3.648 4.724 3.634C4.448 3.622 4.13 3.62 3.812 3.62C3.494 3.62 2.988 3.744 2.568 4.212C2.148 4.68 1 5.744 1 7.894C1 10.044 2.568 12.11 2.776 12.374C2.984 12.638 5.604 16.896 9.724 18.746C10.692 19.166 11.438 19.402 12.016 19.568C12.884 19.822 13.676 19.786 14.298 19.696C14.988 19.596 16.432 18.828 16.748 17.994C17.064 17.16 17.064 16.448 16.972 16.282C16.88 16.116 16.712 16.05 16.248 15.818L17.472 14.382ZM12 21C10.686 21 9.392 20.741 8.193 20.243L7.824 20.076L4.104 21.084L5.136 17.484L4.944 17.1C4.396 15.876 4.108 14.544 4.108 13.186C4.108 7.672 8.588 3.186 14.108 3.186C16.808 3.186 19.348 4.236 21.228 6.12C23.108 8.004 24.152 10.548 24.148 13.248C24.148 18.762 19.668 23.248 14.148 23.248L12 21Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
